@@ -3,10 +3,15 @@ const app = express();
 const port = 3000;
 const appURL = `http://localhost:${port}`;
 
+// Middleware assets statici
+app.use(express.static("public"));
+
+// Routes
 app.get("/", (req, res) => {
   res.send("Server del mio blog");
 });
 
+// Creazione risposta
 app.get("/bacheca", (req, res) => {
   const recipes = [
     {
@@ -40,8 +45,11 @@ app.get("/bacheca", (req, res) => {
       tags: ["torta", "paesana", "tradizione", "dolce"],
     },
   ];
+
+  res.json(recipes);
 });
 
+// Avvio server
 app.listen(port, () => {
   console.log("App.js is listening on port:", port);
 });
