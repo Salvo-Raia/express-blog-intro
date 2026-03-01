@@ -16,32 +16,32 @@ app.get("/bacheca", (req, res) => {
   const recipes = [
     {
       title: "Ciambellone classico",
-      content: "",
-      img: "",
+      content: "...",
+      img: "imgs/ciambellone.jpeg",
       tags: ["ciambellone", "ricetta", "dolce"],
     },
     {
       title: "Cracker di barbabietola",
-      content: "",
-      img: "",
+      content: "...",
+      img: "imgs/cracker_barbabietola.jpeg",
       tags: ["cracker", "barbabietola", "fit", "healthy"],
     },
     {
       title: "Pane fritto dolce",
-      content: "",
-      img: "",
+      content: "...",
+      img: "imgs/pane_fritto_dolce.jpeg",
       tags: ["pane", "fritto", "dolce", "frittura"],
     },
     {
       title: "Pasta con barbabietole",
-      content: "",
-      img: "",
+      content: "...",
+      img: "imgs/pasta_barbabietola.jpeg",
       tags: ["pasta", "barbabietola", "health"],
     },
     {
       title: "Torta Paesana",
-      content: "",
-      img: "",
+      content: "...",
+      img: "imgs/torta_paesana.jpeg",
       tags: ["torta", "paesana", "tradizione", "dolce"],
     },
   ];
