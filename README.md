@@ -8,13 +8,13 @@ Create the foundation of a personal blog using Node.js and Express. Build the fi
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| express-blog-intro | Express Blog Intro | Exercise | Node.js, express & REST API | 43/50 |
+| express-blog-intro | Express Blog Intro | Exercise | Node.js, Express, REST API | 43/50 |
 
 ## Assignment
 
 Build the initial backend structure for a personal blog, which will be expanded with new features as the course progresses.
 
-#### Milestone 1: Create the express server
+#### Milestone 1: Create the Express server
 
 Set up the basic project using Express and create a `/` route that returns the following plain text message:
 
@@ -48,7 +48,7 @@ Use **Postman** to test the application endpoints and verify that they return th
 ## Technologies
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) 
-![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white) 
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 
 ## What I learned
