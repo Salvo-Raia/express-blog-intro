@@ -8,13 +8,13 @@ Create the foundation of a personal blog using Node.js and Express. Build the fi
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| express-blog-intro | Express Blog Intro | Exercise | Node.js, Express & REST API | 43/50 |
+| express-blog-intro | Express Blog Intro | Exercise | Node.js, express & REST API | 43/50 |
 
 ## Assignment
 
 Build the initial backend structure for a personal blog, which will be expanded with new features as the course progresses.
 
-#### Milestone 1: Create the Express Server
+#### Milestone 1: Create the express server
 
 Set up the basic project using Express and create a `/` route that returns the following plain text message:
 
@@ -22,7 +22,7 @@ Set up the basic project using Express and create a `/` route that returns the f
 Server del mio blog
 ```
 
-#### Milestone 2: Create the Posts Array
+#### Milestone 2: Create the posts array
 
 Create an array containing at least five blog posts.
 
@@ -33,11 +33,11 @@ Each post must include:
 - `image`: The associated image.
 - `tags`: An array of strings representing the post's tags.
 
-#### Milestone 3: Create the Blog Endpoint
+#### Milestone 3: Create the blog endpoint
 
 Create a `/bacheca` route that returns a JSON object containing the list of blog posts.
 
-#### Milestone 4: Configure Static Assets
+#### Milestone 4: Configure static assets
 
 Configure static asset serving in the Express application so that the images associated with each post can be accessed and displayed.
 
